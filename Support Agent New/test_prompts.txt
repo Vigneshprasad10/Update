@@ -1,0 +1,31 @@
+#For Full working Flow
+
+API returning 401 errors after deployment
+
+Customers getting 401 unauthorized errors on all API calls since this morning's deployment. Affects all users in production. Error in auth_handler.js.
+v2.0.0
+high
+
+#For confidence
+
+Issue reported 
+
+User said there is a problem
+
+unknown
+
+#Dynamic github keywords
+
+Payment gateway returning 500 errors 
+
+Customers unable to complete purchases. Payment gateway throwing 500 errors at checkout. Started after today's deployment 
+
+2.0.0
+critical
+
+Login authentication failing with 401 errors
+
+Users unable to login after recent deployment.
+Getting 401 unauthorized errors. Token refresh not working
+correctly causing session expiry. auth_handler.js throwing
+errors on all login attempts.
